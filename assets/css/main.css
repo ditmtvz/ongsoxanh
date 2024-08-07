@@ -429,11 +429,11 @@ header {
 }
 
 .invest__item:nth-child(1) {
-  background: url("../img/investments/invest-1.png") no-repeat center/cover;
+  background: url("../img/banner.jpg") no-repeat center/cover;
 }
 
 .invest__item:nth-child(2) {
-  background: url("../img/investments/invest-2.png") no-repeat center/cover;
+  background: url("../img/thueong.jpeg") no-repeat center/cover;
 }
 
 .invest__item__subtitle {
@@ -1180,4 +1180,16 @@ header {
 }
 .footer__logo{
   width: 15rem;
+}
+.invest__item:nth-child(1) {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), /* Lớp phủ đen với độ trong suốt 50% */
+      rgba(0, 0, 0, 0.5)
+  ), url(../img/banner.jpg) no-repeat center / cover;
+}
+.invest__item:nth-child(2) {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), /* Lớp phủ đen với độ trong suốt 50% */
+      rgba(0, 0, 0, 0.5)
+  ), url(../img//thueong.jpeg) no-repeat center / cover;
 }
