@@ -234,7 +234,7 @@ header {
 
 .hero__text {
   margin-top: 10rem;
-  max-width: 50rem;
+  max-width: 76rem;
 }
 
 .hero__title {
@@ -1192,4 +1192,41 @@ header {
       rgba(0, 0, 0, 0.5), /* Lớp phủ đen với độ trong suốt 50% */
       rgba(0, 0, 0, 0.5)
   ), url(../img//thueong.jpeg) no-repeat center / cover;
+}
+.hero__text, .opportunities__description {
+  text-align: justify;
+}
+.hero__description {
+  margin-top: 2rem;
+  margin-bottom:2rem;
+}
+.opportunities {
+  padding-top: 25rem;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .opportunities {
+    padding-top: 23rem;
+    position: relative;
+}
+}
+
+.hero__title {
+  color: #0a8d1b;
+}
+.opportunities__title {
+  color: #0a8d1b;
+}
+.invest__title{
+  color: #0a8d1b;
+}
+
+.footer__contact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email{
+  max-width: 100%;
 }
