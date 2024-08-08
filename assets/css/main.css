@@ -1193,7 +1193,7 @@ header {
       rgba(0, 0, 0, 0.5)
   ), url(../img//thueong.jpeg) no-repeat center / cover;
 }
-.hero__text, .opportunities__description {
+.hero__text, .opportunities__description, .works__description,.works__step_description {
   text-align: justify;
 }
 .hero__description {
@@ -1206,7 +1206,7 @@ header {
 }
 @media (max-width: 767px) {
   .opportunities {
-    padding-top: 23rem;
+    padding-top: 45rem;
     position: relative;
 }
 }
