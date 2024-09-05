@@ -1350,4 +1350,6 @@ header {
   line-height: 1.4rem; /* 100% */
   letter-spacing: 0.014rem;
 }
-
+ .anh{
+  align-items:center;
+ }
